@@ -137,8 +137,8 @@ class Signup : AppCompatActivity() {
                                             val intent = Intent(this, MainActivity::class.java)
                                             startActivity(intent)
                                             //寄信給使用者
-                                            var email = EmailFunction()
-                                            email.send()
+//                                            var email = EmailFunction()
+//                                            email.send()
 
                                             //將ID寫入本地資料庫User
                                             val sharedPreferences =

@@ -40,7 +40,7 @@ class Start : AppCompatActivity(), View.OnClickListener {
 
 
         btDatabase = findViewById(R.id.insert)
-        btGPT = findViewById(R.id.gpt)
+        //btGPT = findViewById(R.id.gpt)
 
 
         //設置按鈕監聽
@@ -52,10 +52,10 @@ class Start : AppCompatActivity(), View.OnClickListener {
             val intent = Intent(this, Insert::class.java)
             startActivity(intent)
         }
-        btGPT.setOnClickListener {
-            val intent = Intent(this, ChatGPT::class.java)
-            startActivity(intent)
-        }
+//        btGPT.setOnClickListener {
+//            val intent = Intent(this, ChatGPT::class.java)
+//            startActivity(intent)
+//        }
 
     }
 
