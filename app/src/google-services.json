@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720448988338",
+    "project_id": "javagame-379705",
+    "storage_bucket": "javagame-379705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720448988338:android:383b4a95917fe5fe6855ab",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720448988338-kjslnmbph372i9k27lhpv4pf02vo67kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbD_NnJ3r_r94B4clJZKpYDr0tTL9Lwhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720448988338-kjslnmbph372i9k27lhpv4pf02vo67kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

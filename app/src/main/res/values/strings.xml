@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">程式惡魔城</string>
+    <string name="playerId">名稱</string>
+    <string name="account">帳號 :</string>
+    <string name="login">登入</string>
+    <string name="sign">註冊</string>
+    <string name="delete">刪除帳號</string>
+    <string name="loginGame">登入遊戲</string>
+    <string name="password">密碼 :</string>
+    <string name="login2">登入</string>
+    <string name="type">類型</string>
+    <string name="export">輸入輸出</string>
+    <string name="numberThree">第三章</string>
+    <string name="numberFour">第四章</string>
+    <string name="numberFive">第五章</string>
+    <string name="java">JAVA</string>
+    <string name="logIn">登入</string>
+    <string name="starGame">點擊後開始遊戲</string>
+    <string name="todo">TODO</string>
+    <string name="q1">Q1</string>
+    <string name="q2">Q2</string>
+    <string name="q3">Q3</string>
+    <string name="q4">Q4</string>
+    <string name="q5">Q5</string>
+    <string name="Type">類型</string>
+    <string name="money">0 G</string>
+    <string name="sign_out">登出</string>
+    <string name="signup_title">註冊帳號</string>
+    <string name="name">暱稱 :</string>
+    <string name="chatgpt">chatGPT</string>
+    <string name="inputdatabase">輸入資料庫</string>
+    <string name="refresh">刷新</string>
+    <string name="back">back</string>
+    <string name="addnumber">增加</string>
+    <string name="minusnumber">減少</string>
+    <string name="minusNumber">minusNumber</string>
+    <string name="addNumber">addNumber</string>
+    <string name="change">change</string>
+    <string name="teach">教學</string>
+    <string name="plot">劇情</string>
+    <string name="plot1">序章</string>
+    <string name="plot2">初到</string>
+    <string name="plot3">神秘隧道</string>
+    <string name="plot4">初次戰鬥</string>
+    <string name="plot5">地底城市</string>
+    <string name="teach1">基礎</string>
+    <string name="teach2">基礎型態</string>
+    <string name="teach3">進階型態</string>
+    <string name="teach4">陣列</string>
+    <string name="teach5">數學運算</string>
+    <string name="fightView">fightView</string>
+    <string name="packageView">packageView</string>
+    <string name="equipment">裝備</string>
+    <string name="designation">稱號</string>
+    <string-array name="answer_options">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string name="product_description">產品介紹:</string>
+    <string name="counterTV">1</string>
+    <string name="title">初心者</string>
+    <string name="lv">Lv:1</string>
+    <string name="email">信箱 :</string>
+    <string name="addQuestion">新增題目</string>
+    <string name="簡單">簡單</string>
+    <string name="中等">中等</string>
+    <string name="困難">困難</string>
+    <string name="魔王">魔王</string>
+    <string name="skip">Skip</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+<!--        設定自定義的主題文字-->
+        <item name="android:fontFamily">@font/yujiboku_regular</item>
+    </style>
+    <style name="hp_progress_bar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <!--进度条的进度颜色drawable文件-->
+        <item name="android:progressDrawable">@drawable/hp_progress_bar</item>
+        <!--进度条的最小高度-->
+        <item name="android:minHeight">17dp</item>
+        <!--进度条的最大高度-->
+        <item name="android:maxHeight">17dp</item>
+    </style>
+    <style name="StoryFont" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--        設定自定義的主題文字-->
+        <item name="android:fontFamily">@font/thepeakfontbeta_v0_101</item>
+    </style>
+</resources>

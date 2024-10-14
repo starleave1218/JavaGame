@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shopbackground"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <include
+        android:id="@+id/include4"
+        layout="@layout/activity_player_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.335"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+
+            <ImageButton
+                android:id="@+id/commodity1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/healingpotion"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/commodity2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/power_up"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+            <ImageButton
+                android:id="@+id/commodity3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/swrod"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+
+            <ImageButton
+                android:id="@+id/commodity4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/healingpotion"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+            <ImageButton
+                android:id="@+id/commodity5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/healingpotion"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+
+            <ImageButton
+                android:id="@+id/commodity6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/healingpotion"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--隱藏刷新按鈕-->
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="@string/refresh"
+        android:textColor="#4E342E"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#00F6F6F6"
+        android:contentDescription="@string/back"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196"
+        app:srcCompat="@drawable/shop_turn"
+        tools:ignore="InOrMmUsage,MissingConstraints" />
+
+    //
+
+</androidx.constraintlayout.widget.ConstraintLayout>

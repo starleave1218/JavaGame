@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Record">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_record"
+        tools:ignore="ContentDescription"
+        />
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#00F6F6F6"
+        android:contentDescription="@string/back"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/turn"
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+    <ImageButton
+        android:id="@+id/change"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/change"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/change" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:translationX="0dp">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:text="@string/plot"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/plot1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#FFD39B"
+                        android:text="@string/plot1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/plot2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#FFD39B"
+                        android:text="@string/plot2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/plot3"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#FFD39B"
+                        android:text="@string/plot3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/plot4"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#FFD39B"
+                        android:text="@string/plot4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/plot5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#FFD39B"
+                        android:text="@string/plot5"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:translationX="800dp"
+            tools:ignore="VisualLintBounds">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:text="@string/teach"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/teach1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#C1FFC1"
+                        android:text="@string/teach1"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/teach2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#C1FFC1"
+                        android:text="@string/teach2"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/teach3"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#C1FFC1"
+                        android:text="@string/teach3"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/teach4"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#C1FFC1"
+                        android:text="@string/teach4"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <Button
+                        android:id="@+id/teach5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#C1FFC1"
+                        android:text="@string/teach5"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
