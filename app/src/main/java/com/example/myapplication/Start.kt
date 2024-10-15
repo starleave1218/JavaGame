@@ -18,7 +18,7 @@ class Start : AppCompatActivity(), View.OnClickListener {
     private val playerInfoDatabaseCollectionName = "PlayerInfo"
     private lateinit var mediaPlayer: MediaPlayer
     private lateinit var btDatabase: Button
-    private lateinit var btGPT: Button
+    //private lateinit var btGPT: Button
 
     // 宣告一個 CoroutineScope
     private val handler = Handler(Looper.getMainLooper())
@@ -123,9 +123,9 @@ class Start : AppCompatActivity(), View.OnClickListener {
                     Log.d("game","是測試者")
 
                 }else{
-                    if (btDatabase.visibility == View.VISIBLE or btGPT.visibility){
+                    if (btDatabase.visibility == View.VISIBLE ){
                         btDatabase.visibility = View.INVISIBLE
-                        btGPT.visibility = View.INVISIBLE
+//                        btGPT.visibility = View.INVISIBLE
                     }
 
                 }

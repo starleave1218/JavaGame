@@ -103,7 +103,7 @@ class Signup : AppCompatActivity() {
                                             val data2 = hashMapOf(
                                                 "PlayerId" to name.text.toString(),
                                                 "Level" to 1,
-                                                "Gold" to 0,
+                                                "Gold" to 150,
                                                 "TitleNumber" to 0,
                                                 "exp" to 0,
                                                 "TitlesOwned" to "0",

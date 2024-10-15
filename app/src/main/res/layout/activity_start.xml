@@ -58,11 +58,13 @@
         android:layout_height="47dp"
         android:text="chatGPT"
         android:textColor="@color/white"
+        android:visibility="invisible"
         app:backgroundTint="#80000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/insert" />
+        app:layout_constraintTop_toBottomOf="@+id/insert"
+        tools:visibility="invisible" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

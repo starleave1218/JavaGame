@@ -403,7 +403,7 @@ class FightMain : AppCompatActivity() {
                         userDocumentRef.get()
                             .addOnSuccessListener { userDocumentSnapshot ->
                                 if (userDocumentSnapshot.exists()) {
-                                    userHp= Integer.parseInt(userDocumentSnapshot.getLong("HP").toString()                                    )
+                                    userHp= Integer.parseInt(userDocumentSnapshot.getLong("Hp").toString()                                    )
                                     userAtk=Integer.parseInt(userDocumentSnapshot.getLong("Attack").toString())
                                     enemyHp = findViewById(R.id.enemyHp)//敵對血條
                                     playerHp = findViewById(R.id.playerHp)//我方血條
