@@ -160,8 +160,8 @@ class Dialog : AppCompatActivity(){
                 db.collection("PlayerInfo").document(serialNumber).get().addOnSuccessListener {doc->
                     var titlesOwned = doc.getString("TitlesOwned")
                     if (titlesOwned != null) {
-                        if(!titlesOwned.contains("01")){
-                            titlesOwned+=",01"
+                        if(!titlesOwned.contains("1")){
+                            titlesOwned+=",1"
                             userReference.update("TitlesOwned",titlesOwned)
                         }
                     }
